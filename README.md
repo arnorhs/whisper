@@ -16,6 +16,10 @@ Mostly for client side, since it would probably not be of use for node peeps
 - No unsubscribe yet
 - No namespaces
 
+### Why?
+- Sometimes you don't need much. Sometimes you don't even need unit tests because you are
+  suck at life.
+
 ### Usage:
 You just need to include the JS file in your project, and then basic usage is
 

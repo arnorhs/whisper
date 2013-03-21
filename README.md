@@ -15,6 +15,9 @@ Mostly for client side, since it would probably not be of use for node peeps
 ### Limitations
 - No unsubscribe yet
 - No namespaces
+- It's a singleton, so you can't have two instances of publishers/subscribers
+- Uses the revealing module pattern, but no module support - but you could probably hook
+  it up by changing the last statement from adding something to the window
 
 ### Why?
 - Sometimes you don't need much. Sometimes you don't even need unit tests because you are
